@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunaFlow - Data Deletion Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+            text-align: center;
+        }
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        .info-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .steps {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+        .step {
+            margin: 15px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        .step::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            margin: 0 10px;
+            padding: 5px 15px;
+            background: #f0f0f0;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .lang-switch a.active {
+            background: #667eea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="data-deletion.html">한국어</a>
+            <a href="#english" class="active">English</a>
+        </div>
+
+        <h1>🌙 LunaFlow Data Deletion Guide</h1>
+
+        <div class="info-box">
+            <strong>Important:</strong> LunaFlow is a local app that stores all data only on your device.
+            We do not send or store data on any server, so you can delete your data directly.
+        </div>
+
+        <h2>📱 Delete Data Within the App</h2>
+
+        <div class="steps">
+            <div class="step">Open the LunaFlow app</div>
+            <div class="step">Select the <strong>Settings</strong> tab from the bottom menu</div>
+            <div class="step">In the <strong>Data Management</strong> section, select <strong>Delete All Data</strong></div>
+            <div class="step">Tap <strong>Delete</strong> in the confirmation dialog</div>
+        </div>
+
+        <h2>🗑️ Complete Data Deletion</h2>
+
+        <div class="steps">
+            <div class="step">Open your device's <strong>Settings</strong> app</div>
+            <div class="step">Select <strong>Apps</strong> or <strong>Application Manager</strong></div>
+            <div class="step">Find and select <strong>LunaFlow</strong> from the list</div>
+            <div class="step">Tap the <strong>Uninstall</strong> or <strong>Delete</strong> button</div>
+        </div>
+
+        <div class="important">
+            <strong>⚠️ Warning:</strong> Uninstalling the app will permanently delete all period records,
+            symptoms, notes, and other data. This cannot be undone. Please backup any important data before deletion.
+        </div>
+
+        <h2>💾 Backup Data (Optional)</h2>
+
+        <div class="steps">
+            <div class="step">Open the <strong>Settings</strong> tab in LunaFlow</div>
+            <div class="step">Select <strong>Backup & Restore</strong></div>
+            <div class="step">Tap <strong>Create Backup</strong> to export your data</div>
+            <div class="step">Save the backup file to a secure location</div>
+        </div>
+
+        <h2>📋 Data Types Deleted</h2>
+
+        <div class="info-box">
+            <ul style="margin-left: 20px;">
+                <li>Period cycle records (start date, end date)</li>
+                <li>Symptom and mood records</li>
+                <li>Intercourse records</li>
+                <li>Personal notes</li>
+                <li>App settings and preferences</li>
+                <li>All prediction data</li>
+            </ul>
+        </div>
+
+        <h2>❓ Additional Questions</h2>
+
+        <div class="info-box">
+            For additional questions about data deletion, please contact us via
+            <a href="https://github.com/ikggod/LunaFlow/issues">GitHub Issues</a>.
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 LunaFlow. All rights reserved.</p>
+            <p>Your privacy is our top priority.</p>
+        </div>
+    </div>
+</body>
+</html>
